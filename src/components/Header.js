@@ -3,10 +3,6 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-    </div>
-    <div className="content">
-      <div className="inner">
         <h1>Sheep Dogs</h1>
         <p>
            Purpose driven fellowship centered on authentic connections and postive community impacts 
